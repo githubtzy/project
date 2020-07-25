@@ -26,7 +26,7 @@ public class LoginController {
             HttpSession session
 
     ){
-        if (!StringUtils.isEmpty(username)  && "123456".equals(password)){
+        if (!StringUtils.isEmpty(username)  && "1234567".equals(password)){
 
 //            为了防止表单重复提交，可以重新定向到主页
             session.setAttribute("loginUser" , username);
